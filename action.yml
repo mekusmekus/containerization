@@ -1,12 +1,12 @@
 name: "my first container action"
-description: " this is my practise"
+description: "this is my practise"
 author: "Tom"
 
 inputs:
   myInput:
     description: "greeting to use"
     required: true
-    default: "Awesome guru
+    default: "Awesome guru"
 outputs:
   myoutput:
     description: "total memory"
