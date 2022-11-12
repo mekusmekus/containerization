@@ -14,8 +14,8 @@ jobs:
       with:
         myInput: "Tom peters"
       
-   - name: output
-     run: |
+    - name: output
+      run: |
        echo ${{ steps.hello.outputs.memory }}
        echo " total memory successfully oputput"
      
