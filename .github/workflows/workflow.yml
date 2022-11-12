@@ -7,15 +7,15 @@ jobs:
     
     
     steps:
-    - uses: actions/checkout@v2
-    - name: run the action
-      uses: ./
-      with:
-        myInput: "Tom peters"
+      - uses: actions/checkout@v2
+      - name: run the action 
+        uses: ./
+        with:
+          myInput: "Tom peters"
       
-    - name: output
-      run: |
-       echo ${{ steps.hello.outputs.memory }}
-       echo " total memory successfully oputput"
+      - name: output
+        run: |
+          echo ${{ steps.hello.outputs.memory }}
+          echo " total memory successfully oputput"
      
         
